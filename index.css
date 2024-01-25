@@ -11,7 +11,7 @@ header {
   width:100%;
   margin: 0 auto;
 }
-li a {
+li {
   display:flex;
   justify-content: space-beteewn;
   align-items: center;
