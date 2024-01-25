@@ -6,3 +6,13 @@
 header {
   background-color:aqua;
 }
+.container{
+  max-width:1026px;
+  width:100%;
+  margin: 0 auto;
+}
+.sub-menu{
+  display:flex;
+  justify-content: space-beteewn;
+  align-items: center;
+}
