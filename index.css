@@ -151,7 +151,6 @@ section .produtos-variados button {
         width: 90%;
     }
     header {
-        font-size:20px;
-        padding:10px;
+        padding:5px;
     }
 }
