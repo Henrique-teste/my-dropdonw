@@ -100,9 +100,6 @@ section .produtos-variados button {
     header{
         padding: 10px;
     }
-    header .container li a {
-        font-size:10px;
-    }
     .container-flex{
         display: block;
     }
@@ -128,12 +125,12 @@ section .produtos-variados button {
     }
     .container ul li a {
         margin-right: 20px;
-        font-size: 25px;
+        font-size: 15px;
         font-family: 'Roboto', sans-serif;
         color: #fff;
         font-weight: bold;
     }
-    .container> .produtos-variados{
+    .container > .produtos-variados{
         grid-template-columns: repeat(2, 49%);
         align-items: center;
         width: 100%;;
