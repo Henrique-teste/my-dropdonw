@@ -1,16 +1,68 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header {
-  background-color:aqua;
-}
-.container{
-  max-width:1026px;
-  width:100%;
-  margin: 0 auto;
-}
-header > .sub-menu {
-}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Shoes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EBAC Shoes</h1>
+            <ul>
+                <li>
+                    <a>Sobre</a>
+                </li>
+                <li>
+                    <a>Produtos</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="container">
+        <div class="container-flex">
+            <img src="./img/fachada loja nike.jpg">
+            <div class="sobre-a-loja">
+                <h2>Sobre a loja</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat rerum quam, vero ab cupiditate architecto dolor beatae ex? Architecto eos voluptatem perspiciatis natus fuga consequuntur doloribus sit vitae impedit similique.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione fugiat accusantium, earum vel optio alias est pariatur amet atque voluptatibus explicabo error perferendis excepturi saepe aperiam ea dolore fugit.</p>
+            </div>    
+        </div>
+    </section>
+    <section class="container">
+        <div class="produtos">
+            <h3>Produtos</h3>
+        </div>
+        <ul class="produtos-variados">
+            <li>
+                <img id="img-pr" src="./img/tenis1.jpg"/>
+                <h4>Tenis Nike</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
+                <button type="submit">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img id="img-pr" src="./img/tenis2.jpg"/>
+                <h4>Tenis Nike</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
+                <button type="submit">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img id="img-pr" src="./img/tenis3.jpg"/>
+                <h4>Tenis Nike</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
+                <button type="submit">Adicionar ao carrinho</button>
+            </li>
+            <li>
+                <img id="img-pr" src="./img/tenis4.jpg"/>
+                <h4>Tenis Nike</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
+                <button type="submit">Adicionar ao carrinho</button>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
