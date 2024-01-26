@@ -107,19 +107,20 @@ section .produtos-variados button {
         margin-bottom: 80px;
     }
     .container-flex img {
-        max-width: 1000px;
+        max-width: 800px;
         width: 100%;
     }
-    .container-flex .sobre-a-loja h2, .container produtos h3 {
+    .container-flex .sobre-a-loja h2{
         text-align: center;
-        font-size: 32px;
+        font-size: 25px;
         font-family:'Roboto', sans-serif;
         margin: 30px;
+        width:100%;
         padding: 10px;
         border-bottom: 2px solid #193e85;
     }
     .container-flex .sobre-a-loja p{
-        font-size: 18px;
+        font-size: 15px;
         align-items: center;
         font-family:'Roboto', sans-serif;
     }
