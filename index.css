@@ -100,6 +100,8 @@ section .produtos-variados button {
     .container ul li a {
     font-size: 13px;
     margin-rigth:10px;
+    padding:10px;
+    width:100%;
 }
 
 
