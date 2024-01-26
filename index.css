@@ -99,7 +99,7 @@ section .produtos-variados button {
     }
     header{
         padding: 10px;
-        font-size: 30px;
+    }
     }
     .container-flex{
         display: block;
