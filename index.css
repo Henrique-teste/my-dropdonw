@@ -150,4 +150,8 @@ section .produtos-variados button {
         .container{
         width: 90%;
     }
+    header {
+        font-size:20px;
+        padding:10px;
+    }
 }
