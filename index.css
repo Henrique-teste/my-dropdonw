@@ -106,6 +106,7 @@ section .produtos-variados button {
         heigth:300px;
         width:1000px;
         max-width:100%;
+        max-height:100%;
 }
 
 
