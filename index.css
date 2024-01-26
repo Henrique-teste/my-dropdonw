@@ -100,6 +100,8 @@ section .produtos-variados button {
     header{
         padding: 10px;
     }
+    header .container li a {
+        font-size:10px;
     }
     .container-flex{
         display: block;
