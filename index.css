@@ -155,6 +155,7 @@ section .produtos-variados button {
         padding:8px;
         font-size:10px;
         font-family: 'Roboto', sans-serif;
+        display:block;
     }
     header li a {
         display:block;
