@@ -137,4 +137,7 @@ section .produtos-variados button {
     .container{
         width:90%;
     }
+    .container-flex{
+        display:block;
+    }
 }
