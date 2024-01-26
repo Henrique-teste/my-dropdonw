@@ -103,10 +103,8 @@ section .produtos-variados button {
     width:100%;
 }
     .container-flex img {
-        heigth:300px;
         width:1000px;
         max-width:100%;
-        max-height:100%;
 }
 
 
