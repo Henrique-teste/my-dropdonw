@@ -110,28 +110,6 @@ section .produtos-variados button {
         max-width: 800px;
         width: 100%;
     }
-    .container-flex .sobre-a-loja h2{
-        text-align: center;
-        font-size: 25px;
-        font-family:'Roboto', sans-serif;
-        margin: 30px;
-        width:100%;
-        padding: 10px;
-        border-bottom: 2px solid #193e85;
-    }
-    .container-flex .sobre-a-loja p{
-        font-size: 10px;
-        align-items: center;
-        font-family:'Roboto', sans-serif;
-        width:100%;
-    }
-    .container ul li a {
-        margin-right: 20px;
-        font-size: 15px;
-        font-family: 'Roboto', sans-serif;
-        color: #fff;
-        font-weight: bold;
-    }
     .container > .produtos-variados{
         grid-template-columns: repeat(2, 49%);
         align-items: center;
