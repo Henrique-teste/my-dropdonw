@@ -102,6 +102,10 @@ section .produtos-variados button {
     margin-rigth:5px;
     width:100%;
 }
+    .container-flex img {
+    max-width: 800px;
+    width:100%;
+}
 
 
 
@@ -119,10 +123,6 @@ section .produtos-variados button {
     }
     .container-flex {
         margin-bottom: 80px;
-    }
-    .container-flex img {
-        max-width: 800px;
-        width: 100%;
     }
     .container > .produtos-variados{
         grid-template-columns: repeat(2, 49%);
