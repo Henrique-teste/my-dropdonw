@@ -146,3 +146,8 @@ section .produtos-variados button {
         width: 90%;
     }
 }
+@media screen and (min-width:375px) and (max-width:636px) {
+        .container{
+        width: 90%;
+    }
+}
