@@ -111,7 +111,7 @@ section .produtos-variados button {
         max-width: 1000px;
         width: 100%;
     }
-    .container-flex .sobre-a-loja h2 {
+    .container-flex .sobre-a-loja h2, .container produtos h3 {
         text-align: center;
         font-size: 32px;
         font-family:'Roboto', sans-serif;
@@ -144,6 +144,9 @@ section .produtos-variados button {
     }
         section .produtos-variados button {
         width: 90%;
+    }
+    .container produtos h3{
+        align-items:center
     }
 }
 @media screen and (min-width:375px) and (max-width:636px) {
