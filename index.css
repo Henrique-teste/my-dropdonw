@@ -106,16 +106,7 @@ section .produtos-variados button {
         width:800%;
         max-width:800px;
 }
-
-
-
-
-
-
-
-
-    
-    header{
+    header {
         padding: 10px;
     }
     .container-flex{
@@ -143,5 +134,7 @@ section .produtos-variados button {
     }
 }
 @media screen and (min-width:375px) and (max-width:636px) {
-
+    .container{
+        width:90%;
+    }
 }
