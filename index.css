@@ -142,4 +142,7 @@ section .produtos-variados button {
     section .produtos-variados #img-pr{
         height: 200px;
     }
+        section .produtos-variados button {
+        width: 90%;
+    }
 }
