@@ -97,6 +97,18 @@ section .produtos-variados button {
     .container{
         width: 90%;
     }
+    .container ul li a {
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+    
     header{
         padding: 10px;
     }
