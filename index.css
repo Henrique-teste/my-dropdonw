@@ -98,7 +98,8 @@ section .produtos-variados button {
         width: 90%;
     }
     .container ul li a {
-    font-size: 10px;
+    font-size: 13px;
+    margin-rigth:10px;
 }
 
 
