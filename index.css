@@ -1,68 +1,145 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EBAC Shoes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>EBAC Shoes</h1>
-            <ul>
-                <li>
-                    <a>Sobre</a>
-                </li>
-                <li>
-                    <a>Produtos</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <section class="container">
-        <div class="container-flex">
-            <img src="./img/fachada loja nike.jpg">
-            <div class="sobre-a-loja">
-                <h2>Sobre a loja</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat rerum quam, vero ab cupiditate architecto dolor beatae ex? Architecto eos voluptatem perspiciatis natus fuga consequuntur doloribus sit vitae impedit similique.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione fugiat accusantium, earum vel optio alias est pariatur amet atque voluptatibus explicabo error perferendis excepturi saepe aperiam ea dolore fugit.</p>
-            </div>    
-        </div>
-    </section>
-    <section class="container">
-        <div class="produtos">
-            <h3>Produtos</h3>
-        </div>
-        <ul class="produtos-variados">
-            <li>
-                <img id="img-pr" src="./img/tenis1.jpg"/>
-                <h4>Tenis Nike</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
-                <button type="submit">Adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img id="img-pr" src="./img/tenis2.jpg"/>
-                <h4>Tenis Nike</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
-                <button type="submit">Adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img id="img-pr" src="./img/tenis3.jpg"/>
-                <h4>Tenis Nike</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
-                <button type="submit">Adicionar ao carrinho</button>
-            </li>
-            <li>
-                <img id="img-pr" src="./img/tenis4.jpg"/>
-                <h4>Tenis Nike</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat fugit </p>
-                <button type="submit">Adicionar ao carrinho</button>
-            </li>
-        </ul>
-    </section>
-</body>
-</html>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1026px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    padding: 10px;
+    background-color: #193e85;
+    margin-bottom: 40px;
+}
+header .container h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container ul li{
+    display: inline;
+}
+.container ul li a {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.container-flex {
+    display: flex;
+    margin-bottom: 80px;
+}
+.container-flex img {
+    max-width: 400px;
+    margin-right: 20px;
+}
+.container-flex .sobre-a-loja h2 {
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #193e85;
+}
+.container-flex .sobre-a-loja p{
+    font-size: 18px;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+}
+
+.container h3 {
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #193e85 ;
+    margin-bottom: 40px;
+}
+section .produtos-variados{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+section .produtos-variados img {
+    max-width: 250px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #193e85;
+}
+section .produtos-variados h4{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    font-family:'Roboto', sans-serif;
+}
+section .produtos-variados p {
+    font-family:'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 10px;
+}
+section .produtos-variados button {
+    color:#fff;
+    background-color:#193e85;
+    width: 80%;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+}
+@media screen and (min-width:638px) and (max-width:1023px) {
+    .container{
+        width: 90%;
+    }
+    header{
+        padding: 20px;
+        font-size: 30px;
+    }
+    .container-flex{
+        display: block;
+    }
+    .container-flex {
+        margin-bottom: 80px;
+    }
+    .container-flex img {
+        max-width: 1000px;
+        width: 100%;
+    }
+    .container-flex .sobre-a-loja h2 {
+        text-align: center;
+        font-size: 32px;
+        font-family:'Roboto', sans-serif;
+        margin: 30px;
+        padding: 10px;
+        border-bottom: 2px solid #193e85;
+    }
+    .container-flex .sobre-a-loja p{
+        font-size: 18px;
+        align-items: center;
+        font-family:'Roboto', sans-serif;
+    }
+    .container ul li a {
+        margin-right: 20px;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-weight: bold;
+    }
+    .container> .produtos-variados{
+        grid-template-columns: repeat(2, 49%);
+        align-items: center;
+        width: 100%;;
+    }
+    .container> .produtos-variados img {
+        margin:15px 90px;
+    }
+    section .produtos-variados #img-pr{
+        height: 200px;
+    }
+}
