@@ -147,15 +147,5 @@ section .produtos-variados button {
     }
 }
 @media screen and (min-width:375px) and (max-width:636px) {
-        .container{
-        width: 90%;
-    }
-    header {
-        font-family: 'Roboto', sans-serif;
-        display:block;
-    }
-    header li a {
-        display:block;
-        font-family: 'Roboto', sans-serif;
-    }
+
 }
