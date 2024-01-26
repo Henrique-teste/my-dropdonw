@@ -105,6 +105,7 @@ section .produtos-variados button {
     .container-flex img {
         heigth:400px;
         width:1000px;
+        max-width:100%;
 }
 
 
