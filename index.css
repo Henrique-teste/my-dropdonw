@@ -93,10 +93,18 @@ section .produtos-variados button {
     border-radius: 5px;
 
 }
-@media screen and (max-width:1023px) and (min-width:376px) {
+@media screen and (max-width:1023px) and (min-width:379px) {
+
 .container{
     width: 90%;
 }
+header h1{
+    font-size: 25px;
+}
+.container ul li a {
+    font-size: 14px;
+}
+
 .container-flex{
     display: block;
 }
@@ -118,19 +126,29 @@ font-size: 30px;
 text-align: center;
 padding-bottom: 30px;
 }
-.container > .produtos-variados{
-    display:grid;
-    grid-template-columns: repeat(2,50% );
+.container > .produtos-variados{ 
+    display: grid;
+    grid-template-columns: repeat(2,30%);
     width:100%;
 }
 .produtos-variados li {
-    padding-bottom: 40px;
+    margin-bottom: 80px;
 }
 .produtos-variados li img {
     max-width: 90%;
+    align-items: center;
+}
+.produtos-variados li button{
+    margin-bottom: 70px;
+}
+.produtos-variados{
+    width: 100%;
+}
+.container > .produtos-variados h4{
+    padding: 0;
 }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:378px) {
     .container{
         width: 95%;
     }
@@ -154,6 +172,7 @@ padding-bottom: 30px;
     .container-flex .sobre-a-loja p {
             text-align: center;
             font-size: 15px;
+            padding-bottom: 30px;
     }
     .produtos h3 {
             font-size: 25px;
