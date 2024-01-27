@@ -181,14 +181,10 @@ section .produtos-variados img{
         margin-left: 20px;
     }
     .produtos-variados li img {
-        max-width: 100%;
-    }
-    section .produtos-variados li {
-        margin-left: 20px;
+        max-width: 90%;
     }
     .container > .produtos-variados button{
-        margin-left: 20px;
-        width:100%;
+        width:85%;
         margin-bottom: 20px;
     }
     .container > .produtos-variados p {
