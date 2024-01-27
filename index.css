@@ -183,7 +183,7 @@ section .produtos-variados img{
         max-width: 100%;
     }
     .container > .produtos-variados button{
-        width:100%;
+        width:92%;
         margin-bottom: 20px;
     }
     .container > .produtos-variados p {
