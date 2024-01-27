@@ -177,7 +177,7 @@ section .produtos-variados img{
     .container > .produtos-variados{ 
         display: block;
         width:90%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .produtos-variados li img {
         max-width: 100%;
