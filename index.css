@@ -143,6 +143,9 @@ section .produtos-variados img{
 
 }
 @media screen and (max-width: 640px) and (min-width: 375px) {
+    header {
+        max-width: 100%;
+    }
     .container{
         width: 95%;
     }
