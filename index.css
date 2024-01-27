@@ -154,9 +154,8 @@ section .produtos-variados img{
         font-size: 13px;
     }
     .container-flex img {
-        max-width: 450px;
-        width: 92%;
-        margin: 15px;
+        max-width: 400px;
+        width: 100%;
     }
     .container-flex .sobre-a-loja h2{
         font-size: 25px;
@@ -190,3 +189,4 @@ section .produtos-variados img{
         text-align: center;
     }
 }
+s
