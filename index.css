@@ -100,6 +100,9 @@ section .produtos-variados button {
 .container{
     width: 90%;
 }
+body{
+    backgroun-color:aqua;
+}
 header h1{
     font-size: 25px;
 }
@@ -144,6 +147,9 @@ section .produtos-variados img{
 }
 }
 @media screen and (max-width: 640px) and (min-width: 375px) {
+    body{
+    backgroun-color:aqua;
+}
     .container-flex{
         display: block;
     }
