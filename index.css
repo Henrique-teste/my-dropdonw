@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    backgroun-color:aqua;
+}
 .container{
     max-width: 1026px;
     width: 100%;
